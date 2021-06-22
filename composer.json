@@ -2,7 +2,6 @@
     "name": "stempora/elfinder-flysystem-driver",
     "description": "A Flysystem Driver for elFinder",
     "license": "MIT",
-    "keywords": ["elfinder", "flysystem", "filesystem"],
     "authors": [
         {   "name" : "Stempora",
             "email": "support@stempora.com"
@@ -26,11 +25,6 @@
          "classmap": ["elFinderVolumeFlysystem.php"],
          "psr-4": {
             "Stempora\\elFinderFlysystemDriver\\": "src/"
-        }
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "0.3"
         }
     }
 }
